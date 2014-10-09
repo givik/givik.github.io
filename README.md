@@ -1,4 +1,4 @@
 givik.github.io
 =============
 
-personal page
+Personal page
