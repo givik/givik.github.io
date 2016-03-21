@@ -52,7 +52,7 @@ body {
 	border-right: 1px solid rgb(100, 100, 100);*/
 	border-top: 6px solid rgb(255, 255, 255);
 	border-bottom: 2px solid rgb(255, 255, 255);
-	display: none;
+	/*display: none;*/
 }
 .contact-map {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
