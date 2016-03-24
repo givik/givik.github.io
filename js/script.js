@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
     function centerChartsNr() {
 
         chartNr.css({
-            top: (chart.height() - chartNr.outerHeight()) / 2 - 10
+            top: (chart.height() - chartNr.outerHeight()) / 5
         });
 
     }
@@ -27,8 +27,8 @@ jQuery(document).ready(function ($) {
                 doIn: function () {
                     $(this).find('.chart').easyPieChart({
                         scaleColor: false,
-                        lineWidth: 2,
-                        size: 190,
+                        lineWidth: 12,
+                        size: 120,
                         trackColor: false,
                         lineCap: 'square',
                         animate: 2000,
