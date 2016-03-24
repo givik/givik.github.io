@@ -63,7 +63,7 @@ body {
 	/*background: #F1F1F1;*/
 	/*border-left: 1px solid rgb(100, 100, 100);
 	border-right: 1px solid rgb(100, 100, 100);*/
-	border-top: 6px solid rgb(255, 255, 255);
+	border-top: 2px solid rgb(255, 255, 255);
 	border-bottom: 2px solid rgb(255, 255, 255);
 	/*display: none;*/
 }
@@ -106,7 +106,7 @@ body {
     display: inline-block;
     margin: 1em;
     /*width: 230px;*/
-    height: 230px;
+    /*height: 230px;*/
     text-align: center;
 }
 
@@ -408,7 +408,7 @@ textarea
 .send a
 {
 	color:#fff;
-	background: #FC685C;
+	background: #363842;
 	padding: 1em 3em;
 	/*border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -421,7 +421,7 @@ textarea
 }
 .send a:hover
 {
-	background: #EB4334;
+	background: #212229;
 }
 .right-form h4{
 	color:#CDCDCD;
@@ -1048,7 +1048,7 @@ textarea
   padding:5px 10px;
   font-size:18px;
   font-family: 'Patua One', cursive;
-  color:#B2BAC2;
+  color: #EDEDED;
   /*box-shadow:0px 0px 7px black;*/
   margin:3px 1px 3px 1px;
   line-height:27px;
@@ -1108,4 +1108,11 @@ textarea
 	/*-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	filter: grayscale(100%);*/
+	opacity: 1;
+}
+.me-photo:hover {
+	/*-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);*/
+	opacity: 0.6;
 }
