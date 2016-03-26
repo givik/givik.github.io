@@ -65,13 +65,13 @@ body {
 	border-right: 1px solid rgb(100, 100, 100);*/
 	border-top: 2px solid rgb(255, 255, 255);
 	border-bottom: 2px solid rgb(255, 255, 255);
-	/*display: none;*/
+	display: none;
 }
 .contact-map {
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
-	padding: 4% 0;
+	padding: 2.8% 0;
 }
 /*------- Skills rings-------*/
 .heading
