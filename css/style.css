@@ -56,6 +56,7 @@ body {
 	background-size: 100%;
 	background-size:cover;
 	background-color: rgba(11, 11, 11, 0.1);
+	box-shadow: 0 100px 100px 10px rgba(0, 0, 0, 0.5);
 }
 #site {
 	max-width: 900px;
