@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
                 doIn: function () {
                     $(this).find('.chart').easyPieChart({
                         scaleColor: false,
-                        lineWidth: 12,
+                        lineWidth: 14,
                         size: 120,
                         trackColor: false,
                         lineCap: 'square',
