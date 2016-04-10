@@ -515,9 +515,14 @@ textarea
 }
 .widget h4 {
 	margin-top: 0;
-	color: #CCC;
-	font-size: 1.5em;
-	font-weight: 600;
+    color: #CCC;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 1px;
 }
 .plain li
 {
@@ -1119,21 +1124,15 @@ textarea
 }
 
 .switch-text {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  display: inline-block;
+ /* -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);*/
   font-size: 30px;
   line-height: 50px;
   color: #ecf0f1;
-  height: 160px;
   overflow: hidden;
-  display: inline-block;
-  float: left;
 }
 .main-text-start {
-  position: absolute;
   top: 27%;
   left: 27%;
   font-size: 30px;
@@ -1144,23 +1143,24 @@ textarea
   float: left;
 }
 .main-text-end {
-  position: absolute;
-  top: 27%;
-  left: 54%;
+  display: inline-block;
+  /*left: 54%;*/
   font-size: 30px;
   line-height: 50px;
   color: #ecf0f1;
-  height: 160px;
-  display: inline-block;
-  float: left;
+  margin-left: 12px;
+  position: relative;
+  top: -12px;
 }
 .switch-text .visible {
   font-weight: 600;
   overflow: hidden;
-  height: 40px;
-  padding: 0 30px;
+  height: 50px;
+  padding: 0 12px;
+  display: inline-block;
+  float: left;
 }
-.switch-text .visible:before {
+/*.switch-text .visible:before {
   content: '[';
   left: 0;
   line-height: 50px;
@@ -1170,9 +1170,11 @@ textarea
   position: absolute;
   right: 0;
   line-height: 50px;
-}
-.switch-text .visible:after, .visible:before {
-  position: absolute;
+}*/
+.switch-text .bef-txt, .switch-text .aft-txt {
+  display: inline-block;
+  font-weight: bold;
+  float: left;
   top: 0;
   color: #55C1E5;
   font-size: 42px;
