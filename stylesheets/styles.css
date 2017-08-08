@@ -150,10 +150,10 @@ footer {
 }
 
 .sec {
-  background: #ffffff;
+  /*background: #ffffff;
   padding: 20px;
-  /*border-radius: 2px;*/
-  border: 7px solid rgba(0, 0, 0, 0.81);
+  border-radius: 2px;
+  border: 7px solid rgba(0, 0, 0, 0.81);*/
 }
 
 @media print, screen and (max-width: 960px) {
