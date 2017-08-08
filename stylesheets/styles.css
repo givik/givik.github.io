@@ -149,6 +149,13 @@ footer {
   margin-top: 60px;
 }
 
+.sec {
+  background: #ffffff;
+  padding: 20px;
+  /*border-radius: 2px;*/
+  border: 7px solid rgba(0, 0, 0, 0.81);
+}
+
 @media print, screen and (max-width: 960px) {
   div.wrapper {
     width: auto;
@@ -228,38 +235,62 @@ footer {
   width: 100%;
   height: 50px;
 }
+
 .social-icons .item {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 100px;
-  background-color: #616161;
+  background-color: #fff;
   display: inline-block;
   margin: 0 6px;
   font-weight: 500;
   text-align: left;
   text-decoration: none;
-  line-height: 90px;
   color: #212121;
   overflow: hidden;
   /*box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);*/
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out;
 }
+
+.social-icons .item:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
 .social-icons .item:before {
-  background-color: #424242;
   display: block;
   font-size: 4.2em;
   font-weight: normal;
-  line-height: 150px;
-  color: #757575;
+  text-align: center;
+  color: #fff;
   -webkit-transition: font-size .5s, line-height .5s;
   transition: font-size .5s, line-height .5s;
-}
-.social-icons .item:hover:before {
-  font-size: 200%;
-  line-height: 50px;
+  font-size: 170%;
+  line-height: 36px;
 }
 
-@media print, screen and (max-width: 960px) {
+.social-icons .item.fa-envelope::before {
+  font-size: 160%;
 }
+
+.social-icons .item.fa-envelope {
+  background: #0084ff;
+}
+
+.social-icons .item.fa-facebook {
+  background: #3b5999;
+}
+
+.social-icons .item.fa-twitter {
+  background: #55acee;
+}
+
+.social-icons .item.fa-linkedin {
+  background: #0077B5;
+}
+
+@media print, screen and (max-width: 960px) {}
 
 grey {
   color: #bbb;
