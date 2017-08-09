@@ -33,9 +33,11 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #39c;
-  font-weight: 400;
+  color: #393939;
   text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 a small {
