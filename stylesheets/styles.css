@@ -36,9 +36,11 @@ a {
   color: #39c;
   text-decoration: none;
 }
+
 section a {
   color: #393939
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -250,7 +252,7 @@ footer {
   border-radius: 100px;
   background-color: #fff;
   display: inline-block;
-  margin: 0 6px;
+  margin: 0 2px;
   font-weight: 500;
   text-align: left;
   text-decoration: none;
@@ -296,6 +298,15 @@ footer {
 
 .social-icons .item.fa-linkedin {
   background: #0077B5;
+}
+
+.social-icons .item.fa-upwork {
+  background-color: #6fda44;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNTYuNyA1Ni43IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1Ni43IDU2Ljc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojRkZGRkZGO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik00Mi40LDE3LjdjLTUuMywwLTkuMywzLjUtMTAuOSw5Yy0yLjUtMy45LTQuNS04LjMtNS42LTEyLjFoLTUuNnYxNC43YzAsMi45LTIuNCw1LjMtNS4zLDUuM3MtNS4zLTIuNC01LjMtNS4zVjE0LjdINC4zdjE0LjdjMCw2LjEsNC45LDExLDEwLjksMTFzMTAuOS00LjksMTAuOS0xMXYtMi41YzEuMSwyLjIsMi41LDQuNiw0LDYuN2wtMy41LDE2LjNoNS43TDM0LjcsMzhjMi4yLDEuNCw0LjcsMi4yLDcuNywyLjJjNi4xLDAsMTEuMS01LDExLjEtMTEuNEM1My41LDIyLjcsNDguNSwxNy43LDQyLjQsMTcuN3ogTTQyLjQsMzQuNmMtMi4yLDAtNC41LTEtNi4zLTIuNWwwLjYtMi4ydi0wLjFjMC40LTIuNCwxLjctNi40LDUuOC02LjRjMy4xLDAsNS42LDIuNSw1LjYsNS42QzQ4LDMyLjEsNDUuMywzNC42LDQyLjQsMzQuNnoiLz48L3N2Zz4=);
+  background-size: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 @media print, screen and (max-width: 960px) {}
